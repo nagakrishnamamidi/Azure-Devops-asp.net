@@ -1,0 +1,253 @@
+    1  git clone http://github.com/<account-name>/devops-intro-project devops
+    2  git clone http://github.com/raghunandanbitra/devops-intro-project devops
+    3  git branch
+    4  git
+    5  git log
+    6  git checkout master
+    7  ls
+    8  dir
+    9  cwd
+   10  ls
+   11  ls
+   12  exit
+   13  ls
+   14  exit
+   15  git status
+   16  git log
+   17  git status
+   18  cls
+   19  git log
+   20  git status
+   21  git checkout master
+   22  git branch
+   23  git status
+   24  git log
+   25  git close https://github.com/raghunandanbitra/devops-intro-project.git devops
+   26  git clone https://github.com/raghunandanbitra/devops-intro-project.git devops
+   27  git status
+   28  git branch
+   29  git checkout devops
+   30  cd devops
+   31  git status
+   32  gti log
+   33  git log
+   34  ls
+   35  git status
+   36  cd devops-intro-project/
+   37  git status
+   38  d
+   39  cd d:
+   40  cd GitProjects/DevOps/
+   41  dir
+   42  mkdir DockerTest
+   43  cd DockerTest/
+   44  git init
+   45  git status
+   46  touch Dockerfile
+   47  git status
+   48  code .
+   49  git status
+   50  docker
+   51  docker images
+   52  exit
+   53  d:
+   54  cd d:
+   55  cd GitProjects/DevOps/
+   56  cd NewRepo/
+   57  history
+   58  history > output.txt
+   59  git config --globla user.name 
+   60  git --global user.name
+   61  git config user.name
+   62  git --version
+   63  touch sample.txt
+   64  notepad sample.txt
+   65  git commit -a -m "added a file"
+   66  git add .
+   67  git status
+   68  git restore --staged sample.txt
+   69  git status
+   70  gedit sample.txt
+   71  vscode sample.txt
+   72  code .
+   73  git status
+   74  code . sample.txt
+   75  git status
+   76  git status
+   77  git log
+   78  git rm sample.txt
+   79  git status
+   80  git branch
+   81  git remote -v
+   82  git rebase origin/master
+   83  git stash
+   84  git rebase origin/master
+   85  git push
+   86  clear
+   87  git log --list
+   88  git log -ls
+   89  git log -l
+   90  git log -list
+   91  git remote
+   92  git remote -v
+   93  git remote show https://github.com/rajesh929/Az400Practice
+   94   ls
+   95  git status
+   96  cat sample.txt
+   97  notepad sample.txt
+   98  clear
+   99  git status
+  100  git commmit -m "sample edited"
+  101  git commit -m "sample edited"
+  102  git commit -a -m "sample edited"
+  103  git log
+  104  git log -ls
+  105  git log -list
+  106  git log --l
+  107  git log --list
+  108  git reflog
+  109  cls
+  110  cler
+  111  cler
+  112  clear
+  113  notepad sample.txt
+  114  git status
+  115  git stash
+  116  git reflog
+  117  cat sample.txt
+  118  git status
+  119  git statsh list
+  120  git stash list
+  121  git stash show
+  122   clear
+  123  git stash apply
+  124  git status
+  125  cat sample.txt
+  126  git log 
+  127  git reflog
+  128  git log --before="09/015/2020"
+  129  git log --before="09/01/2020"
+  130  git log --after="09/01/2020"
+  131  clear
+  132  git log --oneline
+  133  cat sample.txt
+  134  gir revert
+  135  git revert
+  136  git revert d2b1337
+  137  git status
+  138  git commit -m "new line"
+  139  git commit -a -m "new line"
+  140  cat sample.txt
+  141  git log --online
+  142  git log --oneline
+  143  git revert df99a73
+  144  git log --oneline
+  145  cat sample.txt
+  146  git cherry-pick d2b1337
+  147  git status
+  148  cat sample.txt
+  149  git cherry-pick --continue
+  150  git add .
+  151  git commit
+  152  cat sample.txt
+  153  git reflog
+  154  git checkout df99a73
+  155  git status
+  156  git commit
+  157  git add .
+  158  git commit 
+  159  git status
+  160  git commit df99a73
+  161  git status
+  162  git status
+  163  git add 
+  164  git add .
+  165  git commit
+  166  git reflog
+  167  cat sample.txt
+  168  git diff Head..d2b1337
+  169  git diff d2b1337..a57ffdf
+  170  git diff
+  171  git branch
+  172  git checkout master
+  173  git reflog
+  174  git diff
+  175  git mergetool
+  176  git mergetool --tool-help
+  177  git mergetool --tool=diffmerge
+  178  git checkout -b newtest
+  179  git branch
+  180  cat sample.txt
+  181  notepad sample.txt
+  182  git status
+  183  git add . 
+  184  git commit -m "edit in sample"
+  185  git status
+  186  git reflog
+  187  git mergetool
+  188  git checkout master
+  189  git status
+  190  git pull origin master
+  191  git branch
+  192  git merge newtest
+  193  git status
+  194  cat sample.txt
+  195  git checkout newtest
+  196  git status
+  197  cat sample.txt
+  198  git checkout newbranch
+  199  git checkout newtest
+  200  notepad sample.txt
+  201  git status
+  202  git add .
+  203  git commit
+  204  git status
+  205  cat sample.txt
+  206  git checkout master
+  207  cat sample.txt
+  208  git rebase newtest
+  209  git status
+  210  cat sample.txt
+  211  git reflog
+  212  notepad sample.text
+  213  notepad sample.txt
+  214  git add .
+  215  git commit -m 'edited'
+  216  cat sample.txt
+  217  git checkout newtest
+  218  cat sample.txt
+  219  notepad sample.txt
+  220  git add .
+  221  git commit -m 'edited'
+  222  git reflog
+  223  git merge master
+  224  git mergetool
+  225  git status
+  226  git add .
+  227  git commit -m 'merge commit'
+  228  git status
+  229  cat sample.txt
+  230  git status
+  231  git add .
+  232  git commit -m 'testing'
+  233  git checkout master
+  234  git rebase newtest
+  235  git rm sample.txt
+  236  git status
+  237  git commit -m 'deleted sample'
+  238  ls
+  239  git branch
+  240  ls
+  241  rm sample.txt
+  242  clear
+  243  ls
+  244  git revert
+  245  clear
+  246  d:
+  247  cd d:
+  248  cd GitProjects/DevOps/NewRepo/
+  249  cd d
+  250  cd d:
+  251  cd GitProjects/DevOps/NewRepo/
+  252  history
+  253  history > cmd.txt
